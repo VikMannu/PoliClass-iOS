@@ -16,6 +16,7 @@
 		F6D9383D29F6B4B8000852CE /* PoliClass_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9383C29F6B4B8000852CE /* PoliClass_iOSTests.swift */; };
 		F6D9384729F6B4B8000852CE /* PoliClass_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9384629F6B4B8000852CE /* PoliClass_iOSUITests.swift */; };
 		F6D9384929F6B4B8000852CE /* PoliClass_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9384829F6B4B8000852CE /* PoliClass_iOSUITestsLaunchTests.swift */; };
+		F6D9385729F6BE3D000852CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6D9385929F6BE3D000852CE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		F6D9384229F6B4B8000852CE /* PoliClass-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PoliClass-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D9384629F6B4B8000852CE /* PoliClass_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliClass_iOSUITests.swift; sourceTree = "<group>"; };
 		F6D9384829F6B4B8000852CE /* PoliClass_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliClass_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6D9385829F6BE3D000852CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6D9385A29F6BE40000852CE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 				F6D9383029F6B4B8000852CE /* PoliClass_iOS.entitlements */,
 				F6D9382929F6B4B6000852CE /* PoliClass_iOS.xcdatamodeld */,
 				F6D9383129F6B4B8000852CE /* Preview Content */,
+				F6D9385929F6BE3D000852CE /* Localizable.strings */,
 			);
 			path = "PoliClass-iOS";
 			sourceTree = "<group>";
@@ -221,6 +225,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = F6D9381929F6B4B5000852CE;
 			productRefGroup = F6D9382329F6B4B6000852CE /* Products */;
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D9383329F6B4B8000852CE /* Preview Assets.xcassets in Resources */,
+				F6D9385729F6BE3D000852CE /* Localizable.strings in Resources */,
 				F6D9382F29F6B4B8000852CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +309,18 @@
 			targetProxy = F6D9384329F6B4B8000852CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6D9385929F6BE3D000852CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D9385829F6BE3D000852CE /* en */,
+				F6D9385A29F6BE40000852CE /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F6D9384A29F6B4B8000852CE /* Debug */ = {
@@ -435,10 +453,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.policlass.PoliClass-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,10 +489,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.policlass.PoliClass-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
